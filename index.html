@@ -5,5 +5,49 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather application</title>
   </head>
-  <body></body>
+  <body>
+    <div class="app-frame"></div>
+    <header>
+      <form>
+        <label for="search-city">Enter a city</label>
+        <input type="search" id="search-city" placeholder="Enter a city" />
+        <input type="submit" value="Search" />
+      </form>
+    </header>
+    <div class="current-conditions">
+      <h1 class="current-city" id="current-city">Oslo</h1>
+      <p>
+        <span id="current-date">Thursday 11:16</span>
+        <span id="description">sunny</span>
+        <br />
+        Humidity <strong id="humidity">84% </strong>Wind
+        <strong id="wind-speed">2m/s</strong>
+      </p>
+      <div class="temperature-wrapper">
+        <div id="icon">
+          <img src="" alt="weather icon" />
+        </div>
+        <div class="current-temperature" id="temperature">20</div>
+        <div class="unit">°C</div>
+      </div>
+    </div>
+    <footer>
+      <p>
+        This project was coded by
+        <a href="https://github.com/minskunn" target="_blank">Minna K</a> and is
+        <a
+          href="https://github.com/minskunn/weather-application"
+          target="_blank"
+        >
+          on GitHub</a
+        >
+        and
+        <a
+          href="https://weather-application-by-minna.netlify.app/"
+          target="_blank"
+          >hosted on Netlify</a
+        >
+      </p>
+    </footer>
+  </body>
 </html>
