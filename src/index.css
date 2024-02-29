@@ -1,0 +1,71 @@
+body {
+  background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/052/original/pexels-clouds.jpg?1709202724");
+  background-size: 1450px;
+}
+header {
+  padding: 20px;
+}
+.app-frame {
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 150px;
+  max-width: 600px;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+#search-city {
+  background-color: #fce9e9;
+  border: none;
+  border-radius: 10px;
+  width: 60%;
+  padding: 15px;
+}
+#search-button {
+  background: #885df1;
+  padding: 10px 25px;
+  border: none;
+  font-size: 16px;
+  margin-left: 5px;
+  border-radius: 6px;
+  color: white;
+}
+.current-conditions {
+  display: flex;
+  align-items: center;
+  font-family: monospace;
+  font-size: medium;
+}
+
+.current-city {
+  margin-right: 20px;
+}
+
+.temperature-wrapper {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.current-temperature {
+  font-size: 50px;
+}
+
+.unit {
+  font-size: 50px;
+}
+
+#icon {
+  margin-right: 10px;
+}
+
+h1 {
+  font-family: monospace;
+  font-size: 40px;
+  margin: 0px;
+}
+footer {
+  padding: 30px 0 0 0;
+  font-family: monospace;
+  font-size: 11px;
+  text-align: center;
+}
