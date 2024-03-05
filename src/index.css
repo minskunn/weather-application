@@ -1,6 +1,7 @@
 body {
   background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/117/052/original/pexels-clouds.jpg?1709202724");
-  background-size: 1450px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 header {
   padding: 20px;
@@ -62,6 +63,23 @@ h1 {
   font-family: monospace;
   font-size: 40px;
   margin: 0px;
+}
+
+.weather-forecast {
+  margin-top: 20px;
+}
+.weekday {
+  font-family: monospace;
+  font-size: medium;
+}
+.forecast-icon {
+  width: 50px;
+}
+.temperature-high {
+  font-weight: bold;
+}
+.temperature-low {
+  font-weight: normal;
 }
 footer {
   padding: 30px 0 0 0;
