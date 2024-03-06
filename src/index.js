@@ -37,6 +37,29 @@ function formatDate(date) {
   return `${day} ${hours}:${minutes}`;
 }
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let comingDays = ["Mon", "Tue", "Wed", "Thu", "Fri"];
+  let forecastHTML = "";
+
+  comingDays.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `<div class="weekday">${day}<br />
+            <img
+              class="forecast-icon"
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              alt="sunny"
+            />
+            <div class="temperature-high">
+              20
+              <span class="temperature-low">10</span>
+            </div>
+          </div>`;
+  });
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function searchCity(city) {
   let apiKey = "04e13864eb3t2f8af00833563db7ofc6";
   let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}&key=${apiKey}&units=metric`;
@@ -54,3 +77,4 @@ let searchForm = document.querySelector("#search-form");
 searchForm.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Oslo");
+displayForecast();

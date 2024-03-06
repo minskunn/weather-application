@@ -67,6 +67,8 @@ h1 {
 
 .weather-forecast {
   margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
 }
 .weekday {
   font-family: monospace;
