@@ -75,10 +75,12 @@ h1 {
   font-size: medium;
 }
 .forecast-icon {
-  width: 50px;
+  width: 45px;
 }
 .temperature-high {
   font-weight: bold;
+  font-family: sans-serif;
+  font-size: 15px;
 }
 .temperature-low {
   font-weight: normal;
