@@ -6,6 +6,12 @@ body {
 header {
   padding: 20px;
 }
+
+#search-form {
+  display: block;
+  margin: 0 auto;
+}
+
 .app-frame {
   background-color: white;
   margin: 0 auto;
@@ -20,15 +26,15 @@ header {
   border: none;
   border-radius: 10px;
   width: 60%;
-  padding: 15px;
+  padding: 13px;
 }
 #search-button {
   background: #885df1;
   padding: 10px 25px;
   border: none;
-  font-size: 16px;
+  font-size: 15px;
   margin-left: 5px;
-  border-radius: 6px;
+  border-radius: 7px;
   color: white;
 }
 .current-conditions {
@@ -73,9 +79,10 @@ h1 {
 .weekday {
   font-family: monospace;
   font-size: medium;
+  text-align: center;
 }
 .forecast-icon {
-  width: 45px;
+  width: 50px;
 }
 .temperature-high {
   font-weight: bold;
